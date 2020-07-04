@@ -1,4 +1,4 @@
-export function checkHealth(person) {
+export default function checkHealth(person) {
   let result = '';
   if (person.health < 15) {
     result = 'critical';

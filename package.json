@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
+    "babel" : "babel src -d dist",
     "build": "webpack --mode production",
     "lint": "eslint ."
   },

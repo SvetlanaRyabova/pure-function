@@ -1,4 +1,4 @@
-import { checkHealth } from './index.js';
+import checkHealth from './index.js';
 
 // const input = [
 //     {name: 'Max', health: 10},

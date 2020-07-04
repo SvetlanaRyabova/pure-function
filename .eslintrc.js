@@ -12,5 +12,9 @@ module.exports = {
       'WithStatement',
     ],
     'import/prefer-default-export': 0,
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+    ],
   },
 };
